@@ -20,7 +20,7 @@ begin
     gem.version = "#{config[:MAJOR]}.#{config[:MINOR]}.#{config[:PATCH]}"
     gem.name = "redis-dump"
     gem.rubyforge_project = gem.name
-    gem.summary = "Backup and restore your Redis data to and from JSON."
+    gem.summary = "Backup and restore your Redis data to and from JSON. FIXED for Ruby 1.8.7"
     gem.description = gem.summary
     gem.email = "delano@solutious.com"
     gem.homepage = "http://github.com/delano/redis-dump"
